@@ -4,7 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dominic's Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="img/balloon.png" />
+    <!--link to favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="img/balloon.png" />
   </head>
-  <body></body>
+  <body>
+    <!--header-->
+    <header id="page_header">
+      <!--Page title / header-->
+      <div id="page_title">
+        <h1>Dominic Smyth's Portfolio</h1>
+      </div>
+      <!--navigation bar-->
+      <div id="navbarContainer">
+        <nav id="navbar">
+          <a href="index.html" class="navOption">Home</a>
+          <a href="html/resume.html" class="navOption">Resume</a>
+          <a href="html/funFacts.html" class="navOption">Fun Facts</a>
+        </nav>
+      </div>
+      <!--image and quote-->
+      <div id="headImageContainer">
+        <img
+          src="img/resumePhoto.png"
+          alt="Picture of Dominic Smyth"
+          width="200"
+          height="200"
+        />
+        <blockquote>
+          Each day goes on for years / I'm tired of going alone
+        </blockquote>
+      </div>
+    </header>
+    <!--about me section-->
+    <div id="aboutMeContainer">
+      <section id="about_me">
+        <h3>About Me</h3>
+        <p>
+          Hello! My name is Dominic, and I'm currently a senior at Oakland
+          University. I grew up in the Rochester Hills area, and have lived in
+          Michigan my whole life. I currently work at the Oakland Gear Shop. I
+          have no professional experience in the computer science field, but I'm
+          hoping to get an internship related to web and/or app design. You can
+          learn some more about me on my
+          <a href="html/resume.html" class="navOption">Resume</a> page or on my
+          <a href="html/funFacts.html" class="navOption">Fun Facts</a> page!
+        </p>
+      </section>
+    </div>
+    <!--progress to degree-->
+    <div id="degreeProgressContainer">
+      <section id="degree_progress">
+        <label for="degree_progress_bar">Progress to degree:</label>
+        <progress id="degree_progress_bar" value="91" max="100">91%%</progress>
+      </section>
+    </div>
+    <!--footer-->
+    <hr />
+    <footer>
+      <p>&copy; 2023 Dominic Smyth. All rights reserved.</p>
+      <a href="mailto:domsmyth2002@gmail.com">Email Me</a>
+    </footer>
+  </body>
 </html>
